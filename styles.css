@@ -1,0 +1,68 @@
+/* page styling */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: #ffe4ec;
+    color: #a83d6a;
+    margin: 0;
+    padding: 50px;
+}
+
+/* Header style */
+h1 {
+    font-size: 2.2em;
+    color: #d63384;
+    margin-bottom: 40px;
+}
+
+/* Image animation effect */
+.animated-image {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(216, 51, 132, 0.2);
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Button transition effect */
+.fancy-button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.4);
+}
+
+.fancy-button:hover {
+    background-color: #ff85c1;
+    transform: scale(1.1);
+}
+
+/* Link hover color effect */
+.hover-link {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hover-link:hover {
+    color: #FFA500; 
+}
+
+/* Spacing for image container */
+.image-container {
+    margin-bottom: 40px;
+}
